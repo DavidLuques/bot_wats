@@ -11,7 +11,7 @@ client.on('ready',()=>{
 })
 client.on('message',message=>{
     if(message.body==='brando'){
-        client.sendMessage(message.from,'se la come')
+        client.sendMessage(message.from,'es mi companiero')
         client.sendMessage(message.from,'Claudio le ama')
     }
 })
